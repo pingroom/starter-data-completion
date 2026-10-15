@@ -1,0 +1,8 @@
+node_modules/
+.pingroom/
+.completion/
+output/
+.env
+.env.*
+!.env.example
+.DS_Store

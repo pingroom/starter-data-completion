@@ -1,0 +1,17 @@
+{
+  "name": "pingroom-starter-data-completion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ask a human to fill a missing catalog category and write a validated JSON copy.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/start.js",
+    "connect": "node src/connect.js",
+    "find-id": "node src/find-id.js",
+    "demo": "node src/demo.js",
+    "test": "node --test"
+  },
+  "dependencies": { "@pingroom/sdk": "0.6.0" },
+  "license": "MIT"
+}
