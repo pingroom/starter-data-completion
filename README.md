@@ -67,6 +67,6 @@ This example accepts a small schema. IDs use letters, digits, `_`, and `-` (up t
 
 Each saved job binds the input, room, connection, and answer policy. Changing any of these requires a new job ID for new work; preserve the original configuration to resume existing work. Answer buttons and typed text are mutually exclusive. Under `responder_scope: direct`, the first answer resolves the question. If a typed category fails local validation, the job ends with `invalid_answer` and creates no output.
 
-The SDK is pinned to `0.6.0` with a lockfile. CI runs the credential-free tests and demo on Node.js 22 and 24. See the [SDK](https://github.com/pingroom/sdk) for the API, [human review starter](https://github.com/pingroom/starter-human-review) for approval gates, and [handoff receipts](https://github.com/pingroom/starter-handoff-receipts) for tracking receipt of a message.
+The SDK is pinned to `0.7.1` with a lockfile. CI runs the credential-free tests and demo on Node.js 22 and 24. See the [SDK](https://github.com/pingroom/sdk) for the API, [human review starter](https://github.com/pingroom/starter-human-review) for approval gates, and [handoff receipts](https://github.com/pingroom/starter-handoff-receipts) for tracking receipt of a message.
 
 MIT licensed.
